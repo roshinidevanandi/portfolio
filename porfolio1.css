@@ -1,0 +1,159 @@
+.nav {
+  height: 60px;
+  width: 800px;
+  background-color: rgb(38, 247, 247);
+  margin-top: 40px;
+  margin-left: 300px;
+}
+.an {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 30px;
+}
+#s1 {
+  margin-top: -40px;
+  margin-left: -40px;
+}
+.a1 {
+  height: 60px;
+}
+.a1:hover {
+  color: rgb(227, 48, 78);
+  background-color: orange;
+}
+.a2 {
+  height: 60px;
+}
+.a2:hover {
+  color: rgb(227, 48, 78);
+  background-color: orange;
+}
+.a3 {
+  height: 60px;
+}
+.a3:hover {
+  color: rgb(227, 48, 78);
+  background-color: orange;
+}
+.a4 {
+  height: 60px;
+}
+.a4:hover {
+  color: rgb(227, 48, 78);
+  background-color: orange;
+}
+.a5 {
+  height: 60px;
+}
+.a5:hover {
+  color: rgb(227, 48, 78);
+  background-color: orange;
+}
+.a3:hover .cd1 {
+  height: 40px;
+  width: 120px;
+  background-color: rgb(38, 165, 18);
+  visibility: visible;
+  color: white;
+  font-size: 24px;
+}
+.cd1 {
+  visibility: hidden;
+}
+.a4:hover .a41 {
+  height: 60px;
+  width: 120px;
+  background-color: rgb(38, 165, 18);
+  visibility: visible;
+  color: white;
+  font-size: 24px;
+}
+.a41 {
+  font-size: 20px;
+  visibility: hidden;
+}
+.a5 {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.a5 .a51 {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(218, 30, 61);
+  color: #fff;
+  border-radius: 6px;
+  height: 40px;
+  width: 400px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+}
+.a51 {
+  text-align: center;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.a5:hover .a51 {
+  visibility: visible;
+}
+input {
+  width: 280px;
+  text-align: center;
+}
+
+#name {
+  color: hsl(350, 82%, 54%);
+  font-size: 25px;
+}
+#grit {
+  font-size: 25px;
+}
+
+.dsc {
+  height: 200px;
+  width: 660px;
+  margin-top: 130px;
+  margin-left: 360px;
+  display: inline-flex;
+}
+.footer {
+  height: 180px;
+  width: 860px;
+  background-color: rgb(38, 247, 247);
+  margin-top: 10px;
+  margin-left: 240px;
+  border: 1px solid;
+  display: inline-flex;
+}
+#name2 {
+  font-size: 30px;
+  margin-left: 80px;
+  position: relative;
+  top: 20px;
+}
+#gmail {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+a:hover {
+  background-color: rgb(15, 219, 219);
+}
+.footer2 {
+  margin-top: -20px;
+  margin-left: 10px;
+}
+#name3 {
+  font-size: 30px;
+  position: relative;
+  top: 32px;
+  left: 50px;
+}
+.footer4 {
+  margin-top: 60px;
+  margin-left: 20px;
+}
